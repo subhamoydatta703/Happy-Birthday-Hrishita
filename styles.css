@@ -1,15 +1,18 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background: url('https://source.unsplash.com/featured/?balloons,cake') no-repeat center center fixed;
+    background-color: #f8c8d5; /* Soft pastel pink background */
+    background-image: url('https://source.unsplash.com/featured/?balloons,cake'); /* Balloons and cake images */
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     color: #333;
     margin: 0;
     padding: 0;
 }
 
 .container {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.8); /* White semi-transparent background for text */
     padding: 20px;
     border-radius: 10px;
     margin: 10% auto;
